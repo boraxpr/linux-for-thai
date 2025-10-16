@@ -1,0 +1,14 @@
+เมื่อ install linux distro แล้ว ในหลาย distro มักให้ set font ได้แค่ภาษาอังกฤษเท่านั้น ไม่มีUI ให้ set ภาษาไทย ดังนั้น font ของภาษาไทยมักจะถูก fallback เป็น Noto sans ซึ่งเป็น Font ไทยที่ไม่มีหัวและอ่านยาก
+
+script นี้จะทำการ download font google sarabun และ override เมื่อเป็นภาษาไทย
+
+```bash
+curl -sL https://raw.githubusercontent.com/boraxpr/linux-for-thai/fonts/sarabunizer.sh
+chmod +x sarabunizer.sh
+./sarabunizer
+```
+
+**FROM DEFAULT:**<br><img src="asset/thai-no-loop-notosan.png" width="400">
+
+**TO:**<br><img src="asset/thai-loop-sarabun.png" width="400">
+
