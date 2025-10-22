@@ -3,7 +3,7 @@
 script นี้จะทำการ download font google sarabun และ override เมื่อเป็นภาษาไทย
 
 ```bash
-curl -sL https://raw.githubusercontent.com/boraxpr/linux-for-thai/fonts/sarabunizer.sh](https://raw.githubusercontent.com/boraxpr/linux-for-thai/refs/heads/main/fonts/sarabunizer.sh
+curl -sL https://raw.githubusercontent.com/boraxpr/linux-for-thai/refs/heads/main/fonts/sarabunizer.sh
 chmod +x sarabunizer.sh
 ./sarabunizer
 ```
